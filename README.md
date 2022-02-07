@@ -1,5 +1,5 @@
 # VUA-Supit-project
-  Algebra static WebSite
+Algebra static WebSite - 
 Web stranica koja prezentira Visoko učilište Algebra
 
 ![index](https://user-images.githubusercontent.com/61901937/152865926-54e8cff1-af73-4670-aaac-71c7b47b5f21.JPG)
