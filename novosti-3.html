@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        
+        <title>Algebra</title>
+
+        <!-- Bootstrap CSS -->
+        
+        <link rel="stylesheet" href="css/bootstrap.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/b6bf4f2445.js" crossorigin="anonymous"></script>
+
+        <!-- Google Font -->
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap');
+          </style> 
+    </head>
+
+    <body>
+
+    <!-- Logo + navigation -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a href="#" class="navbar-brand">
+            <img src="img/Algebra-logo.png" alt="Algebra-logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link " href="index.html"><i class="fas fa-home"></i> Početna</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="o_nama.html"><i class="fas fa-comments"></i> O nama</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="novosti.html"><i class="fas fa-info-circle"></i> Novosti</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="nastavni_plan.html"><i class="fas fa-chalkboard-teacher"></i> Nastavni plan</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="modal" href="#myModal"><i class="fas fa-envelope"></i> Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Modal Window -->
+      <div id="myModal" class="modal fade" data-toggle="modal"  tabindex="-1">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <form method="POST" action="http://www.fulek.com/VUA/SUPIT/ContactUs">
+              <div class="modal-header">
+                  <h5 class="modal-title"><i class="fas fa-envelope"></i> Kontaktirajte nas</h5>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+
+              <div class="modal-body">                        
+                <div class="form-group">
+                    <label class="control-label">Puno ime:</label>
+                    <input type="text" class="form-control" name="name"> 
+                </div>
+                
+                <div class="form-group">
+                  <label class="control-label">E-mail:</label>
+                  <input type="email" class="form-control" name="email"> 
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label">Važnost poruke:</label>
+                  <select class="form-control" name="importance">
+                    <option>Niska</option>
+                    <option>Visoka</option>
+                  </select>
+                </div>   
+
+                <div class="form-group">
+                    <label class="control-label">Vaša poruka:</label>
+                    <textarea class="form-control" rows="5" name="message"></textarea>
+                </div>    
+
+                <div class="form-group">
+                  <label>
+                      Primaj newsletter: <input type="checkbox"  name="newsletter">
+                  </label>
+                </div>  
+
+                <button type="submit" class="btn btn-primary">Pošalji</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Odustani</button>
+
+              </div> <!-- End of Modal-body -->
+            </form>
+          </div> <!-- End of modal-content -->
+        </div> <!-- End of modal-dialog modal-lg -->
+      </div> <!-- End of myModal -->
+      <!-- End of Modal Window -->
+
+    </header>
+    <!-- End of Logo + navigation + modal -->
+
+    <!-- Banner -->
+    <div id="banner">
+      <img class="news-posts" src="img/novost3.jpg" alt="Novosti3">
+    </div>
+    <!-- End of Banner -->
+
+
+
+    <!-- Novosti -->
+    <section class="container news-posts-title">
+      <h2>Stipendijski natječaj šk. god. 2018./2019.</h2>
+    </section>
+
+
+    <section class="news_single">¸
+      <article class="container">
+
+        <div class="row news-row-single">
+
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 news_holder">
+            Algebra Junior organizira edukativne i zabavne ljetne praznike za sve osnovnoškolce! I ove smo godinepripremili 
+            digitalne radionice za djecu čiji je fokusrješavanja raznih problema korištenjem tehnologije,multimedije, 
+            digitalnog dizajna i komunikacija testvaranju sadržaja u svim multimedijskim i softverskimoblicima. Radionice 
+            se održavaju u sklopu Digitalnogljetnog kampa u Crikvenici i Digitalne ljetne škole uZagrebu kako bismo se 
+            družili, zabavljali i učili i na moru i na kontinentu! Na digitalnom kampu i u školiprovodit će se dva različita 
+            programa koji su namijenjena djeci od 1. do 8. razreda. Ovisno o odabranom terminu, polaznici će prolaziti kroz 1. 
+            ili 2. program, a u slučaju pohađanja dvotjednih programa – oba. U prvom programu nađe nindže uče biti glazbeni 
+            menadžeri dok su u drugom novinari i kreatori informacija masovnih medija. Provjerite termine, cijene i lokacije 
+            škole i kampa na sljedećem linku.
+          </div>
+
+        </div>
+
+      </article>
+    </section>
+
+    <!-- End of Novosti -->
+    
+    <!-- Bootstrap jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!-- End of Bootstrap jQuery-->
+
+    </body>
+</html>
